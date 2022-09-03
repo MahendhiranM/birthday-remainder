@@ -8,7 +8,7 @@ const Generate = () => {
   const [link, setLink] = useState('');
   const generateLink = () => {
     setLink(
-      `https://birthday-wisher.netlify.app/birthday/${name}/${day}/${month}`
+      `https://birthday-remainder-app.vercel.app/birthday/${name}/${day}/${month}`
     );
   };
   return (
